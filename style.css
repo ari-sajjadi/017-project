@@ -1,0 +1,110 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  background-image: url("Images/menulg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header ul, header li {
+  display: inline;
+}
+
+header li + li {
+  padding-left: 10px;
+}
+
+
+nav {
+  font-family: inherit;
+  display: inherit;
+  justify-content: space-around;
+  padding: 20px 20px;
+
+  border-bottom: 2px solid black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 0px;
+}
+
+.ml{
+  width: 90px;
+  height: 25px;
+}
+.acc{
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+.sn{
+
+  width: 25px;
+  margin: 0% 0%;
+  padding: 0% 0;
+  border: 0%;
+
+}
+div.menu-icon {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  transform: translateY(20px);
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-image: url("Images/menu-icon.png");
+  background-repeat: no-repeat;
+  transition: height 1.5s;
+}
+.sntm{
+  display: block;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin: center;
+}
+.sntm .sn{
+  margin-left: 20px;
+  height: 50px;
+  width: 40px;
+
+}
+div.menu-icon:hover{
+  height: 570px;
+  background-size: 65px;
+  background-image: url("Images/menu-close-icon.png");
+}
+
+
+
+
+.footer{
+  margin-top: 5000px;
+  width: 100%;
+  height: 500px;
+  *max-width: 900px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+.snt{
+  position: fixed;
+  right: 0;
+  transform: translateY(20px);
+}
+
+.sntm{
+  position: fixed;
+  left: 0;
+  transform: translateY(20px);
+}
