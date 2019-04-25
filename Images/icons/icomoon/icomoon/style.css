@@ -40,8 +40,6 @@
 }
 .ico-left-img:before {
   content: "\e906";
-  width: 60px;
-  height: 50px;
 }
 .ico-right-img:before {
   content: "\e900";

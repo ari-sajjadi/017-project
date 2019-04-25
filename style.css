@@ -15,6 +15,7 @@ header ul, header li {
 
 header li + li {
   padding-left: 10px;
+
 }
 
 
@@ -53,13 +54,13 @@ nav ul li {
   border: 0%;
 
 }
-div.menu-icon {
+ div.menu-icon {
   position: fixed;
   left: 0;
   top: 55px;
   transform: translateY(20px);
   overflow: hidden;
-  width: 100px;
+  width: 130px;
   height: 100px;
   text-align: center;
   background-image: url("Images/menu-icon.png");
@@ -73,7 +74,7 @@ div.menu-icon {
   margin-top: 80px;
   margin: center;
 }
-.sntm .sn{
+.sntm .sn {
   margin-left: 20px;
   height: 50px;
   width: 40px;
@@ -91,7 +92,7 @@ div.menu-icon:hover{
 .footer{
   margin-top: 5000px;
   width: 100%;
-  height: 500px;
+  height: 300px;
   *max-width: 900px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -102,9 +103,67 @@ div.menu-icon:hover{
   right: 0;
   transform: translateY(20px);
 }
-
+.a{
+  text-underline-position: none;
+}
 .sntm{
   position: fixed;
   left: 0;
   transform: translateY(20px);
+}
+#nav-menu-numb{
+  text-decoration: none;
+  unicode-range: 0;
+  text-size-adjust: 20em;
+  width: 4em;
+  font-size: 4em; 
+}
+.snfb-one{
+  position: absolute;
+  position: fixed;
+  left: 50px;
+  top: 10px;
+  transform: translate(20px);
+}
+.snfb-two{
+  position: absolute;
+  position: fixed;
+  left: 50px;
+  top: 55px;
+  transform: translate(20px);
+}
+.snfb-three{
+  position: absolute;
+  position: fixed;
+  left: 50px;
+  top: 105px;
+  transform: translate(20px);
+}
+.snfb-four{
+  position: absolute;
+  position: fixed;
+  left: 50px;
+  top: 155px;
+  transform: translate(20px);
+}
+.snfb-five{
+  position: absolute;
+  position: fixed;
+  left: 50px;
+  top: 205px;
+  transform: translate(20px);
+}
+.sntm li:hover .submenu {
+  visibility: visible;
+}
+.submenu {
+  visibility: hidden;
+  position: absolute;
+  left: 70px;
+  top: 0px;
+  width: 100px;
+  height: 300px;
+}
+.w3-content .w3-display-container{
+  box-sizing: border-box;
 }
