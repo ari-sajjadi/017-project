@@ -24,7 +24,7 @@
               <a href="index.html"><img class="ml" src="Images/my-logo.jpeg" ></a>
             </li>  
             <li><!--colock-->
-                  <time class="cl">10:00 Mon 01.july.2019</time>
+                  <time id="c1"></time>
             </li>
               <ul><!--searching bar-->
                 <li><input type="text"></li>
@@ -125,13 +125,13 @@
 
 </div>
 
-<div class="w3-content w3-display-container">
+<div class="w3-display-container">
 
-  <img class="mySlides" src="Images/test/2.jpg" style="width:100%">
-  <img class="mySlides" src="Images/test/3.jpg" style="width:100%">
-  <img class="mySlides" src="Images/test/4.jpg" style="width:100%">
-  <img class="mySlides" src="Images/test/5.jpg" style="width:100%">
-  <img class="mySlides" src="Images/test/6.jpg" style="width:100%">
+  <img class="mySlides" src="Images/test/2.jpg" >
+  <!--<img class="mySlides" src="Images/test/3.jpg" >-->
+  <img class="mySlides" src="Images/test/4.jpg" >
+  <img class="mySlides" src="Images/test/5.jpg" >
+  <!--<img class="mySlides" src="Images/test/6.jpg" >-->
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -156,11 +156,23 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button> 
+ 
+
 
 
     <footer>
       <img class="footer" src="images/footer2.jpg">
     </footer>
+    <script src="script.js"></script>
   </body>
 
 
