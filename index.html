@@ -5,12 +5,17 @@
 
     <link rel="stylesheet" href="Images\icons\icomoon\style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name= "viewport" content= "width=device-width initial-scale=1">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./Images/icons/favicon_package_v0.16/apple-touch-icon-180x180.png" type="image" sizes="150x150">
+    <!--shopping slideshow CDN links-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Gewürz-suiss</title>
   
 </head>
@@ -24,11 +29,11 @@
               <a href="index.html"><img class="ml" src="Images/my-logo.jpeg" ></a>
             </li>  
             <li><!--colock-->
-                  <time id="c1"></time>
+                  <time id="colock"></time>
             </li>
               <ul><!--searching bar-->
-                <li><input type="text"></li>
-                <li><input type="submit"></li>
+                <li><input class="search-text" type="text"></li>
+                <li><input class="search-bottom" type="submit"></li>
               </ul>
             <li>
               <ul><!--account basket language icons-->
@@ -50,111 +55,33 @@
 
     </header>
     <div class="hero-image">
+        <a class="scroll-link" href="#slidshow">Slidshow</a>
+        <a class="scroll-link" href="#shoping">Shopping</a>
+        <a class="scroll-link" href="#footer">Footer</a>
         <ul class="snt"><!--social network fixed panel-->
-          <li><a href="https://www.facebook.com/"><img class="sn" src="Images/snfb.png" ></a></li>
-          <li><a href="https://www.instagram.com/"><img class="sn" src="Images/snins.png" ></a></li>
-          <li><a href="https://www.youtube.com/"><img class="sn" src="Images/snyt.png" ></a></li>
-          <li><a href="https://plus.google.com/"><img class="sn" src="Images/sngp.png" ></a></li>
-          <li><a href="https://twitter.com/"><img class="sn" src="Images/sntw.png" ></a></li>
+          <li><a href="https://www.facebook.com/"><img class="snt-images" src="Images/snfb.png" ></a></li>
+          <li><a href="https://www.instagram.com/"><img class="snt-images" src="Images/snins.png" ></a></li>
+          <li><a href="https://www.youtube.com/"><img class="snt-images" src="Images/snyt.png" ></a></li>
+          <li><a href="https://plus.google.com/"><img class="snt-images" src="Images/sngp.png" ></a></li>
+          <li><a href="https://twitter.com/"><img class="snt-images" src="Images/sntw.png" ></a></li>
     
           </ul>
         </div>
-   
-<div class="menu-icon">
-    <ul class="sntm"><!--menu bar fixed-->
-      <li>
-        <a href="https://www.facebook.com/"><img class="sn" id="facebooklink" src="Images/snfb.png" ></a>
-        <div class="submenu">
-            <ul class="snfb-one"><!--social network fixed panel-->
-              <li><a id="nav-menu-numb" href="https://www.facebook.com/"><span class="ico-number1"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.instagram.com/"><span class="ico-number2"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.youtube.com/"><span class="ico-number3"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://plus.google.com/"><span class="ico-number4"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://twitter.com/"><span class="ico-number5"></span></a></li>
-      
-            </ul>
-        </div>
-      </li>
-      <li><a href="https://www.instagram.com/"><img class="sn" src="Images/snins.png" ></a>
-        <div class="submenu">
-            <ul class="snfb-two"><!--social network fixed panel-->
-              <li><a id="nav-menu-numb" href="https://www.facebook.com/"><span class="ico-number1"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.instagram.com/"><span class="ico-number2"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.youtube.com/"><span class="ico-number3"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://plus.google.com/"><span class="ico-number4"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://twitter.com/"><span class="ico-number5"></span></a></li>
-      
-            </ul>
-          </div>
-      </li>
-      <li><a href="https://www.youtube.com/"><img class="sn" src="Images/snyt.png" ></a>
-        <div class="submenu">
-            <ul class="snfb-three"><!--social network fixed panel-->
-              <li><a id="nav-menu-numb" href="https://www.facebook.com/"><span class="ico-number1"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.instagram.com/"><span class="ico-number2"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.youtube.com/"><span class="ico-number3"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://plus.google.com/"><span class="ico-number4"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://twitter.com/"><span class="ico-number5"></span></a></li>
-      
-            </ul>
-          </div></li>
-      <li><a href="https://plus.google.com/"><img class="sn" src="Images/sngp.png" ></a>
-        <div class="submenu">
-            <ul class="snfb-four"><!--social network fixed panel-->
-              <li><a id="nav-menu-numb" href="https://www.facebook.com/"><span class="ico-number1"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.instagram.com/"><span class="ico-number2"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.youtube.com/"><span class="ico-number3"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://plus.google.com/"><span class="ico-number4"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://twitter.com/"><span class="ico-number5"></span></a></li>
-      
-            </ul>
-          </div></li>
-      <li><a href="https://twitter.com/"><img class="sn" src="Images/sntw.png" ></a>
-        <div class="submenu">
-            <ul class="snfb-five"><!--social network fixed panel-->
-              <li><a id="nav-menu-numb" href="https://www.facebook.com/"><span class="ico-number1"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.instagram.com/"><span class="ico-number2"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://www.youtube.com/"><span class="ico-number3"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://plus.google.com/"><span class="ico-number4"></span></a></li>
-              <li><a id="nav-menu-numb" href="https://twitter.com/"><span class="ico-number5"></span></a></li>
-      
-            </ul>
-          </div></li>
 
-    </ul>
 
 </div>
 
-<div class="w3-display-container">
-
-  <img class="mySlides" src="Images/test/2.jpg" >
-  <!--<img class="mySlides" src="Images/test/3.jpg" >-->
-  <img class="mySlides" src="Images/test/4.jpg" >
-  <img class="mySlides" src="Images/test/5.jpg" >
-  <!--<img class="mySlides" src="Images/test/6.jpg" >-->
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="shopping-slidshow big">
+    <div><img src="Images/test/slideshow01.jpg" alt="" width="80%" height="800px"></div>
+    <div><img src="Images/test/slideshow02.jpg" alt="" width="80%" height="800px"></div>
+    <div><img src="Images/test/slideshow03.jpg" alt="" width="80%" height="800px"></div>
+    <div><img src="Images/test/slideshow01.jpg" alt="" width="80%" height="800px"></div>
+    <div><img src="Images/test/slideshow02.jpg" alt="" width="80%" height="800px"></div>
+    <div><img src="Images/test/slideshow03.jpg" alt="" width="80%" height="800px"></div>
 </div>
 
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
 </script>
 <div id="mySidepanel" class="sidepanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -164,15 +91,67 @@ function showDivs(n) {
     <a href="#">Contact</a>
   </div>
   
-  <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button> 
- 
+  <button class="openbtn" onclick="openNav()"></button> 
 
+  <div class="parallax" id="first-link">
+    <div class="parallax-nav">
+    <a class="scroll-link-bg" href="#first-link">First</a>
+    <a class="scroll-link-bg" href="#secound-link">Second</a>
+    <a class="scroll-link-bg" href="#third-link">Third</a>
+    <!--Shopping slidshow script-->
+    <div class="shopping-slidshow small">
+      <div><img src="./images/shopping slidshow/1.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/2.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/3.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/4.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/5.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/6.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/7.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/8.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/9.jpg" alt="" width="90%" height="200px"></div>
+      <div><img src="./images/shopping slidshow/10.jpg" alt="" width="90%" height="200px"></div>
+    </div>
 
+  </div>
+     
+  </div>
 
+  <img src="./Images/menu.jpg" alt="" width="100%" height="600px">
+
+  <div class="parallax2" id="secound-link">
+    <div class="parallax-nav">
+    <a class="scroll-link-bg" href="#first-link">First</a>
+    <a class="scroll-link-bg" href="#secound-link">Second</a>
+    <a class="scroll-link-bg" href="#third-link">Third</a>
+    </div>
+  </div>
+
+  <img src="./Images/menu.jpg" alt="" width="100%" height="600px">
+
+  <div class="parallax3" id="third-link">
+    <div class="parallax-nav">
+    <a class="scroll-link-bg" href="#first-link">First</a>
+    <a class="scroll-link-bg" href="#secound-link">Second</a>
+    <a class="scroll-link-bg" href="#third-link">Third</a>
+    </div>
+  </div>
+
+  <img src="./Images/menu.jpg" alt="" width="100%" height="600px">
+
+---------------------------------------------------
+test code!
+
+---------------------------------------------------
     <footer>
-      <img class="footer" src="images/footer2.jpg">
+      <img class="footer" id="footer" src="images/footer2.jpg">
     </footer>
+    <!--shopping slidshow script-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
     <script src="script.js"></script>
+    
   </body>
 
 

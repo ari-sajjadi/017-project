@@ -1,35 +1,35 @@
-
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/* ------------------------------------------------------------ header*/
 .hero-image {
   width: 100%;
-  height: 300px;
+  height: 750px;
   background-image: url("Images/menulg.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
 header ul, header li {
   display: inline;
 }
-
 header li + li {
   padding-left: 10px;
-
 }
 
-
+/* ------------------------------------------------------------ end of header*/
+/* ------------------------------------------------------------ header navigation bar*/
 nav {
+  
   font-family: inherit;
-  display: inherit;
   justify-content: space-around;
   padding: 20px 20px;
 
   border-bottom: 2px solid black;
-}
-nav ul {
-  display: flex;
-  justify-content: space-between;
 }
 
 nav ul li {
@@ -37,140 +37,70 @@ nav ul li {
 }
 
 .ml{
+  margin-left: 2em;
   width: 90px;
   height: 25px;
 }
 .acc{
   padding: 3px;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
-
-.sn{
-
+/* -------------------------------------------------------- end of header navigationbar*/
+/* -------------------------------------------------------- Links on Homepage*/
+.scroll-link{
+  top: 100px;
+  padding: 20px 20px;
+	color: #1e3046;
+	font-family: 'Baloo';
+	font-size: 4vw;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+	margin-top: 72px;
+  position: sticky;
+  text-decoration: none;
+}
+.scroll-link-bg{
+  padding: 20px 20px;
+	color: #1e3046;
+	font-family: 'Baloo';
+	font-size: 4vw;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+  text-decoration: none;
+}
+/* ---------------------------------------------------------- End of Links on Homepage*/
+/* ---------------------------------------------------------- Sucial network fixed panel*/
+.snt{
+  position: fixed;
+  right: 0;
+  transform: translateY(20px);
+  z-index: 9;
+}
+.snt-images{
   width: 25px;
   margin: 0% 0%;
   padding: 0% 0;
-  border: 0%;
+  border: 0em;
 
-}
- div.menu-icon {
-   z-index: 10;
-  position: fixed;
-  left: 0;
-  top: 55px;
-  transform: translateY(20px);
-  overflow: hidden;
-  width: 130px;
-  height: 100px;
-  text-align: center;
-  background-image: url("Images/menu-icon.png");
-  background-repeat: no-repeat;
-  transition: height 1.5s;
-}
-.sntm{
-  display: block;
-  text-align: center;
-  justify-content: space-around;
-  margin-top: 80px;
-  margin: center;
 }
 .sntm .sn {
   margin-left: 20px;
   height: 50px;
   width: 40px;
-
 }
-div.menu-icon:hover{
-  height: 570px;
-  background-size: 65px;
-  background-image: url("Images/menu-close-icon.png");
-}
-
-
-
-
-.footer{
-  margin-top: 5000px;
-  width: 100%;
-  height: 300px;
-  *max-width: 900px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-}
-.snt{
-  position: fixed;
-  right: 0;
-  transform: translateY(20px);
-}
-.a{
-  text-underline-position: none;
-}
-.sntm{
-  position: fixed;
-  left: 0;
-  transform: translateY(20px);
-}
-#nav-menu-numb{
-  text-decoration: none;
-  unicode-range: 0;
-  text-size-adjust: 20em;
-  width: 4em;
-  font-size: 4em; 
-}
-.snfb-one{
-  position: absolute;
-  position: fixed;
-  left: 50px;
-  top: 10px;
-  transform: translate(20px);
-}
-.snfb-two{
-  position: absolute;
-  position: fixed;
-  left: 50px;
-  top: 55px;
-  transform: translate(20px);
-}
-.snfb-three{
-  position: absolute;
-  position: fixed;
-  left: 50px;
-  top: 105px;
-  transform: translate(20px);
-}
-.snfb-four{
-  position: absolute;
-  position: fixed;
-  left: 50px;
-  top: 155px;
-  transform: translate(20px);
-}
-.snfb-five{
-  position: absolute;
-  position: fixed;
-  left: 50px;
-  top: 205px;
-  transform: translate(20px);
-}
-.sntm li:hover .submenu {
-  visibility: visible;
-}
-.submenu {
-  visibility: hidden;
-  position: absolute;
-  left: 70px;
-  top: 0px;
-  width: 100px;
-  height: 300px;
-}
+/* ------------------------------------------------------------ end of social network panel*/
+/* ------------------------------------------------------------ Slide show*/
 .w3-content .w3-display-container{
   box-sizing: border-box;
 }
 .w3-display-container img {
   padding: 60px;
-  width: 90%;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 200px;
 }
 .w3-display-left{
   left: 60px;
@@ -178,28 +108,24 @@ div.menu-icon:hover{
 .w3-display-right{
   right: 60px;
 }
+/* ------------------------------------------------------------ end of slidshow*/
 
-
-
-
-
-
-
-/* The sidepanel menu */
+/* ------------------------------------------------------------ side menu panel */
 .sidepanel {
-  height: 250px; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  
+  height: 250px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
-/* The sidepanel links */
+
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -209,12 +135,10 @@ div.menu-icon:hover{
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
@@ -223,16 +147,103 @@ div.menu-icon:hover{
   margin-left: 50px;
 }
 
-/* Style the button that is used to open the sidepanel */
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+  width: 40px;
+  height: 40px;
+  background: url(Images/menu-icon.png);
+  background-size: 100%;/* to save the size of picture*/
+  position: fixed;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  border: none;  
 }
 
-.openbtn:hover {
-  background-color: #444;
+/* ------------------------------------------------------------ End side menu panel*/
+/* ------------------------------------------------------------ Footer*/
+.footer{
+  *margin-top: 5000px;
+  width: 100%;
+  height: 300px;
+  *max-width: 900px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+/* ------------------------------------------------------------ end of footer*/
+
+/* ------------------------------------------------------------ end of iphonesize*/
+
+@media (min-width: 500px ) {
+  .scroll-link{
+    top: 600px;
+  }
+  
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+}
+
+/* ------------------------------------------------------------ end of iphonesize*/
+/* ------------------------------------------------------------ Parallelbg*/
+
+.parallax {
+  background-image: url("Images/cookingsp.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-nav{
+  padding: 20px 120px;
+	color: #1e3046;
+	font-family: 'Baloo';
+	font-size: 4vw;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+  position: sticky;
+  text-decoration: none;
+  top: 30px;
+}
+
+.parallax2 {
+  background-image: url("Images/cookingvg.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("Images/cookingvm.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shopping-slidshow.small img{
+max-width: 200px;
+}
+.shopping-slidshow.big img{
+  max-width: 800px;
+  }
+  .shopping-slidshow.big{
+    padding: 0% 50px;
+    }
+.slick-prev:before, .slick-next:before{
+  color: black;
+}
+.slick-prev{
+  left: 30px;
+}
+.slick-next{
+  right: 35px;
 }
