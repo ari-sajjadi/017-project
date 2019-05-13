@@ -8,7 +8,7 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 /* ------------------------------------------------------------ header*/
 .hero-image {
-  width: 100%;
+
   height: 750px;
   background-image: url("../Images/menulg.jpg");
   background-size: 100%;
@@ -22,6 +22,7 @@ header li + li {
 }
 
 /* ------------------------------------------------------------ end of header*/
+
 /* ------------------------------------------------------------ header navigation bar*/
 nav {
   
@@ -47,6 +48,7 @@ nav ul li {
   height: 30px;
 }
 /* -------------------------------------------------------- end of header navigationbar*/
+
 /* -------------------------------------------------------- Links on Homepage*/
 .scroll-link{
   top: 100px;
@@ -72,6 +74,7 @@ nav ul li {
   text-decoration: none;
 }
 /* ---------------------------------------------------------- End of Links on Homepage*/
+
 /* ---------------------------------------------------------- Sucial network fixed panel*/
 .snt{
   position: fixed;
@@ -92,6 +95,7 @@ nav ul li {
   width: 40px;
 }
 /* ------------------------------------------------------------ end of social network panel*/
+
 /* ------------------------------------------------------------ change color background and text*/
 
 .change-color-bg{
@@ -103,7 +107,7 @@ nav ul li {
     background: whitesmoke;
   }
   to {
-    background: beige;
+    background: #F6CECE;
   }  
 }
 .change-color-bg h1 {
@@ -119,23 +123,6 @@ nav ul li {
 }
 
 /* ------------------------------------------------------------ End of change color background and text*/
-/* ------------------------------------------------------------ Slide show*/
-.w3-content .w3-display-container{
-  box-sizing: border-box;
-}
-.w3-display-container img {
-  padding: 60px;
-  width: 100%;
-  height: 600px;
-  margin-bottom: 200px;
-}
-.w3-display-left{
-  left: 60px;
-}
-.w3-display-right{
-  right: 60px;
-}
-/* ------------------------------------------------------------ end of slidshow*/
 
 /* ------------------------------------------------------------ side menu panel */
 .sidepanel {
@@ -188,17 +175,6 @@ nav ul li {
 }
 
 /* ------------------------------------------------------------ End side menu panel*/
-/* ------------------------------------------------------------ Footer*/
-.footer{
-  *margin-top: 5000px;
-  width: 100%;
-  height: 300px;
-  *max-width: 900px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-}
-/* ------------------------------------------------------------ end of footer*/
 
 /* ------------------------------------------------------------ end of iphonesize*/
 
@@ -214,6 +190,7 @@ nav ul {
 }
 
 /* ------------------------------------------------------------ end of iphonesize*/
+
 /* ------------------------------------------------------------ Parallelbg*/
 .parallax-nav{
   position: sticky;
@@ -288,6 +265,7 @@ max-width: 200px;
   height: 200px;
 }
 /* ------------------------------------------------------------ End of Slide show big and small*/
+
 /* ------------------------------------------------------------ shopping prices*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -321,3 +299,15 @@ max-width: 200px;
   font-size: 1.8em;
 }
 /* ------------------------------------------------------------ End of shopping prices*/
+
+/* ------------------------------------------------------------ Footer*/
+.footer{
+  *margin-top: 5000px;
+  width: 100%;
+  height: 300px;
+  *max-width: 900px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+/* ------------------------------------------------------------ end of footer*/
