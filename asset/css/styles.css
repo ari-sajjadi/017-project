@@ -1,0 +1,323 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/* ------------------------------------------------------------ header*/
+.hero-image {
+  width: 100%;
+  height: 750px;
+  background-image: url("../Images/menulg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header ul, header li {
+  display: inline;
+}
+header li + li {
+  padding-left: 10px;
+}
+
+/* ------------------------------------------------------------ end of header*/
+/* ------------------------------------------------------------ header navigation bar*/
+nav {
+  
+  font-family: inherit;
+  justify-content: space-around;
+  padding: 20px 20px;
+
+  border-bottom: 2px solid black;
+}
+
+nav ul li {
+  padding: 0px;
+}
+
+.ml{
+  margin-left: 2em;
+  width: 90px;
+  height: 25px;
+}
+.acc{
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
+/* -------------------------------------------------------- end of header navigationbar*/
+/* -------------------------------------------------------- Links on Homepage*/
+.scroll-link{
+  top: 100px;
+  padding: 20px 20px;
+	color: #fedb01;
+	font-family: 'Baloo';
+	font-size: 4vw;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+	margin-top: 72px;
+  position: sticky;
+  text-decoration: none;
+}
+.scroll-link-bg{
+  padding: 20px 20px;
+	color: #fedb01;
+	font-family: 'Baloo';
+	font-size: 4vw;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+  text-decoration: none;
+}
+/* ---------------------------------------------------------- End of Links on Homepage*/
+/* ---------------------------------------------------------- Sucial network fixed panel*/
+.snt{
+  position: fixed;
+  right: 0;
+  transform: translateY(20px);
+  z-index: 9;
+}
+.snt-images{
+  width: 25px;
+  margin: 0% 0%;
+  padding: 0% 0;
+  border: 0em;
+
+}
+.sntm .sn {
+  margin-left: 20px;
+  height: 50px;
+  width: 40px;
+}
+/* ------------------------------------------------------------ end of social network panel*/
+/* ------------------------------------------------------------ change color background and text*/
+
+.change-color-bg{
+
+  animation: change-color-bg 2s linear infinite alternate both;
+}
+@keyframes change-color-bg{
+  from {
+    background: whitesmoke;
+  }
+  to {
+    background: beige;
+  }  
+}
+.change-color-bg h1 {
+  margin-left: .5em;
+  font-size: 3em;
+  font-family: 'Baloo';
+}
+.change-color-bg p {
+  text-align: center;
+  padding: .5em 3em 1em 3em;
+  font-size: 2em;
+  font-family: 'Baloo';
+}
+
+/* ------------------------------------------------------------ End of change color background and text*/
+/* ------------------------------------------------------------ Slide show*/
+.w3-content .w3-display-container{
+  box-sizing: border-box;
+}
+.w3-display-container img {
+  padding: 60px;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 200px;
+}
+.w3-display-left{
+  left: 60px;
+}
+.w3-display-right{
+  right: 60px;
+}
+/* ------------------------------------------------------------ end of slidshow*/
+
+/* ------------------------------------------------------------ side menu panel */
+.sidepanel {
+  
+  height: 350px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  width: 40px;
+  height: 40px;
+  background: url(../Images/menu-icon.png);
+  background-size: 100%;/* to save the size of picture*/
+  position: fixed;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  border: none;  
+  z-index: 99999;
+}
+
+/* ------------------------------------------------------------ End side menu panel*/
+/* ------------------------------------------------------------ Footer*/
+.footer{
+  *margin-top: 5000px;
+  width: 100%;
+  height: 300px;
+  *max-width: 900px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+/* ------------------------------------------------------------ end of footer*/
+
+/* ------------------------------------------------------------ end of iphonesize*/
+
+@media (min-width: 500px ) {
+  .scroll-link{
+    top: 600px;
+  }
+  
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+}
+
+/* ------------------------------------------------------------ end of iphonesize*/
+/* ------------------------------------------------------------ Parallelbg*/
+.parallax-nav{
+  position: sticky;
+  top: 30px;
+}
+
+.parallax1 {
+  padding: 20px 120px;
+  background-image: url("../Images/cookingsp.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  padding: 20px 120px;
+  background-image: url("../Images/cookingvg.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  padding: 20px 120px;
+  background-image: url("../Images/cookingvm.jpg");
+  min-height: 700px; 
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ------------------------------------------------------------ Slide show big and small*/
+.shopping-slidshow.small img{
+max-width: 200px;
+}
+.shopping-slidshow.big img{
+  max-width: 800px;
+  }
+  .shopping-slidshow{
+    padding: 0% 50px;
+    }
+.slick-prev:before, .slick-next:before{
+  color: black;
+}
+.slick-prev{
+  left: 30px;
+}
+.slick-next{
+  right: 30px;
+}
+
+.slick-slide {
+  background: white;
+  margin: 0px 10px 0px 10px;
+}
+
+.pbaloo{
+  font-family: Ballo;
+  font-size: 2vw;
+  color: #1e3046
+
+}
+.shoping-images{
+  width: 100%;
+  height: 200px;
+}
+/* ------------------------------------------------------------ End of Slide show big and small*/
+/* ------------------------------------------------------------ shopping prices*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card h1{
+  font-size: 1.8em;
+}
+/* ------------------------------------------------------------ End of shopping prices*/
