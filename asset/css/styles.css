@@ -36,7 +36,9 @@ nav {
 nav ul li {
   padding: 0px;
 }
-
+.search-bottom{
+  height: 25px;
+}
 .ml{
   margin-left: 2em;
   width: 90px;
@@ -51,17 +53,17 @@ nav ul li {
 
 /* -------------------------------------------------------- Links on Homepage*/
 .scroll-link{
-  top: 100px;
-  padding: 20px 20px;
+  padding: 1px 20px;
 	color: #fedb01;
 	font-family: 'Baloo';
 	font-size: 4vw;
-	font-weight: 400;
-	line-height: 72px;
-	letter-spacing: -0.01em;
-	margin-top: 72px;
-  position: sticky;
   text-decoration: none;
+  position: sticky;
+}
+.scroll-link-links{
+bottom: 0;
+position: absolute;
+
 }
 .scroll-link-bg{
   padding: 20px 20px;
@@ -107,7 +109,7 @@ nav ul li {
     background: whitesmoke;
   }
   to {
-    background: #F6CECE;
+    background: #A9F5F2;
   }  
 }
 .change-color-bg h1 {
@@ -299,7 +301,9 @@ max-width: 200px;
   font-size: 1.8em;
 }
 /* ------------------------------------------------------------ End of shopping prices*/
-
+.animated{
+  padding-left: 70px;
+}
 /* ------------------------------------------------------------ Footer*/
 .footer{
   *margin-top: 5000px;
