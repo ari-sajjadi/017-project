@@ -41,6 +41,18 @@ function closeNav() {
  // ------------------------------------------------------------ end fixed menu
  // ------------------------------------------------------------ Shopping slideshow
  $(document).ready(function(){
+
+  //VIEWPORT CHECKER
+  //POUR TOUTES LES SECTIONS
+  $('.viewport').viewportChecker({
+    classToAdd: 'animated pulse', //Les classes ajoutées quand l'élément est visible
+    classToRemove: 'hidden', //Les classes enlevées quand l'élément est en dehors du viewport
+    repeat: false, //repeter les animations à chaque fois quand l'élément arrive dans le viewport ?
+    offset: '50%' //active les classes seulement quand l'élément est rentré dans le viewport d'au moins 100px
+  });
+
+
+  //SLIDESHOW
   $('.shopping-slidshow.big').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -54,5 +66,6 @@ function closeNav() {
     autoplaySpeed: 2000,
     variableWidth: true
   });
+
 }); 
  // ------------------------------------------------------------ end hopping slideshow
