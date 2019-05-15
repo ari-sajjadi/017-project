@@ -391,333 +391,6 @@ nav ul {
   justify-content: space-between;
 }
 }
-/* MEDIA QUERIES
-===================================================================================*/
-/* >= 736px
-----------------------------------------------*/
-@media (min-width: 736px) {
-
-	/* COMMON
-	----------------------------------*/
-	/*Main*/
-	#body {
-		max-width: 95%;
-		margin-left: auto;
-		margin-right: auto;
-		transition: max-width .3s ease;
-	}
-	#index .main-header {
-		padding: 5em 0 3em;
-	}
-
-	/*Footer*/
-	.copyright li {
-		display: inline-block;
-	}
-	.copyright li:first-child:after {
-		content: "";
-		display: inline-block;
-		width: 1em;
-		border-right: dotted 1px #8a8a8a;
-	}
-
-	/*Header Figure*/
-	.header-figure .icon {
-		font-size: 3.5em;
-	}
-	.header-figure:before,
-	.header-figure:after {
-		width: 43%;
-	}
-
-
-	/* HOME
-	---------------------------------*/
-	/*Banner*/
-	#banner {
-		min-height:75vh;
-		background-size: 15em, 15em, auto, cover;
-	}
-	#banner .inner {
-		width: auto;
-		background: rgba(52, 27, 43, 0.5);
-	}
-	#banner .inner br {
-		display: block;
-	}
-
-
-	/* CONTACT
-	----------------------------------*/
-	#contact .style-4 {
-		padding: 4%;
-		max-width: 768px;
-	}
-
-}
-
-
-/* >= 840px
-----------------------------------------------*/
-@media (min-width: 840px) {
-
-	/* COMMON
-	----------------------------------*/
-	/*ROOT FONT SIZE*/
-	html {
-		font-size: 18px;
-	}
-
-
-	/*TITLES*/
-	h2 {
-		font-size: 1.5em;
-	}
-	h3 {
-		font-size: 1.2em;
-	}
-
-
-	/*DISPLAY FLEX*/
-	.DF {
-		flex-direction: row;
-	}
-
-
-	/*BODY HEADER*/
-	.is-scrolled #header {
-		padding-top: 1em;
-		padding-bottom: 1em;
-	}
-
-
-	/*LOGO*/
-	#logo {
-		font-size: 1em;
-	}
-
-
-	/*NAV AND MENUS*/
-	#nav-triggers {
-		display: none;
-	}
-
-	#nav {
-		pointer-events: auto;
-		position: static;
-		background: transparent;
-		display: block;
-		width: auto;
-		height: auto;
-		animation: none;
-		transition: none;
-		opacity: 1;
-	}
-
-	#main-menu {
-		justify-content: flex-end;
-		align-items: center;
-		text-align: right;
-		max-width: none;
-	}
-
-	#main-menu li {
-		margin-left: .3em;
-		transition: margin .3s ease;
-	}
-	#main-menu li:first-child {
-		margin: 0;
-	}
-
-	#main-menu a {
-		color: inherit;
-		display: inline-block;
-		font-size: inherit;
-		padding: 0.6em 0.75em;
-		/*min-width: 0;*/
-	}
-	#main-menu a.special {
-		margin: 0;
-	}
-
-
-	/*CONTAINER*/
-	.container {
-		margin-bottom: 2em;
-	}
-
-
-	/* CONTENT
-	----------------------------------*/
-	/*Main Header*/
-	.main-header .content {
-		padding: 0 6%;
-	}
-
-
-	/*Banner*/
-	#banner {
-		min-height:75vh;
-		background-size: 20em, 20em, auto, cover;
-	}
-	#banner .inner {
-		margin-top: 3em;
-	}
-
-
-	/*Container STYLE 1*/
-	.style-1 .text {
-		width: 70%;
-		text-align: left;
-	}
-	.style-1 .featured-icons {
-		width: 30%;
-	}
-	.featured-icons li {
-    width: 50%;
-		margin-bottom: 1.5rem;
-	}
-	.featured-icons .icon {
-		display: inline;
-    font-size: 5em;
-	}
-	.featured-icons .icon:before {
-		display: inline-block;
-		width: 100%;
-		height: auto;
-	}
-
-
-	/*Container STYLE 2*/
-	.style-2 {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.style-2 section {
-		width: 30%;
-	}
-	.style-2 .row section {
-    margin-bottom: 0;
-	}
-
-
-	/*Container STYLE 3*/
-	.style-3 section {
-		width: 47.5%;
-	}
-
-
-	/*CTA*/
-	#call-to-action {
-		margin: 6em 0 0;
-	}
-	#call-to-action .button {
-		margin: 1em;
-	}
-
-
-	/*Container with columns*/
-	.row .col-large {
-		width: 65%;
-	}
-	.row .col-small {
-		width: 30%;
-	}
-
-
-	/* CONTACT
-	----------------------------------*/
-	form .row.DF input {
-		max-width: 48%;
-	}
-	form .row.DF input:first-child {
-		margin-bottom: 0;
-	}
-
-}
-
-
-/* >= 960px
-----------------------------------------------*/
-@media (min-width: 960px) {
-
-	#main-menu li {
-		margin-left: .5em;
-	}
-
-}
-
-
-/* >= 1024px
-----------------------------------------------*/
-@media (min-width: 1024px) {
-
-	/* COMMON
-	----------------------------------*/
-	#main-menu li {
-		margin-left: 2em;
-	}
-
-	#main {
-		max-width: 960px;
-	}
-
-
-	/* HOME
-	----------------------------------*/
-	.style-1 .text {
-		width: 65%;
-	}
-	.style-1 .featured-icons {
-		width: 30%;
-	}
-	.featured-icons .icon {
-		font-size: 6.25em;
-	}
-
-}
-
-
-/* >= 1280px
-----------------------------------------------*/
-@media (min-width: 1280px) {
-
-	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
-	}
-
-	#main {
-		max-width: 1200px;
-	}
-
-
-}
-
-
-/* >= 1680px
-----------------------------------------------*/
-@media (min-width: 1680px) {
-
-	/* COMMON
-	----------------------------------*/
-	#main {
-		max-width: 1400px;
-	}
-
-
-	/* HOME
-	----------------------------------*/
-	.style-1 .text {
-		width: 60%;
-	}
-	.style-1 .featured-icons {
-		width: 30%;
-	}
-
-}
-
-/* ------------------------------------------------------------ end of iphonesize*/
-
 /* ------------------------------------------------------------ Parallelbg*/
 .parallax-nav{
   position: sticky;
@@ -836,3 +509,67 @@ max-width: 200px;
   box-sizing: border-box;
 }
 /* ------------------------------------------------------------ end of footer*/
+/* MEDIA QUERIES
+===================================================================================*/
+/* >= 736px
+----------------------------------------------*/
+@media (max-width: 736px) {
+
+	.change-color-bg p.columns-3 {
+		columns: 1;
+		font-size: 18px;
+	}
+	.change-color-bg p{
+		padding: 0;
+		font-size: 16px;
+	}
+	.scroll-link{
+		padding: 0;
+		padding-left: 10px;
+	}
+	.scroll-link-bg{
+		padding: 0;
+		font-size: 4vw;
+		line-height: 0px;
+		width: 100%;
+	}
+	.parallax-nav {
+    top: 40px;
+}
+	.parallax1{
+		padding: 0;
+	}
+	.parallax2{
+		padding: 0;
+	}
+	.parallax3{
+		padding: 0;
+	}
+}
+	/* >= 840px
+----------------------------------------------*/
+@media (max-width: 840px) {
+
+}
+/* >= 960px
+----------------------------------------------*/
+@media (max-width: 960px) {
+
+}
+/* >= 1024px
+----------------------------------------------*/
+@media (max-width: 1024px) {
+
+}
+/* >= 1280px
+----------------------------------------------*/
+@media (max-width: 1280px) {
+
+}
+/* >= 1680px
+----------------------------------------------*/
+@media (max-width: 1680px) {
+
+}
+/* End of MEDIA QUERIES
+===================================================================================*/
