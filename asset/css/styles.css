@@ -587,11 +587,6 @@ padding: 2em;
 /* <= 736px
 ----------------------------------------------*/
 @media (max-width: 736px) {
-html{
-  -moz-transition: -moz-transform 1s ease, opacity 1s ease;
-  -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-  -ms-transition: -ms-transform 1s ease, opacity 1s ease;
-}
 .change-color-bg p.columns-3 {
 columns: 1;
 font-size: 18px;
