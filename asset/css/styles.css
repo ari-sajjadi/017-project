@@ -304,7 +304,7 @@ position: absolute;
 }
 
 .change-color-bg p.columns-3 {
-  columns: 3;
+  columns: 2;
   column-gap: 2em;
 
 }
@@ -511,65 +511,112 @@ max-width: 200px;
 /* ------------------------------------------------------------ end of footer*/
 /* MEDIA QUERIES
 ===================================================================================*/
-/* >= 736px
+/* <= 1280px
+----------------------------------------------*/
+
+@media (max-width: 1280px) {
+.change-color-bg p.columns-3 {
+columns: 2;
+font-size: 25px;
+padding: 2em;
+}
+.change-color-bg p{
+  padding: 0;
+  font-size: 16px;
+}
+.scroll-link{
+  padding: 0;
+  padding-left: 10px;
+}
+.scroll-link-bg{
+  padding: 0;
+  font-size: 4vw;
+  line-height: 0px;
+  width: 100%;
+}
+.parallax-nav {
+  top: 55px;
+}
+.parallax1{
+  padding: 0;
+}
+.parallax2{
+  padding: 0;
+}
+.parallax3{
+  padding: 0;
+}
+
+}
+/* <= 1024px
+----------------------------------------------*/
+@media (max-width: 1024px) {
+.change-color-bg p.columns-3 {
+columns: 2;
+font-size: 25px;
+padding: 2em;
+}
+.change-color-bg p{
+  padding: 0;
+  font-size: 16px;
+}
+.scroll-link{
+  padding: 0;
+  padding-left: 10px;
+}
+.scroll-link-bg{
+  padding: 0;
+  font-size: 4vw;
+  line-height: 0px;
+  width: 100%;
+}
+.parallax-nav {
+  top: 55px;
+}
+.parallax1{
+  padding: 0;
+}
+.parallax2{
+  padding: 0;
+}
+.parallax3{
+  padding: 0;
+}
+}
+/* <= 736px
 ----------------------------------------------*/
 @media (max-width: 736px) {
 
-	.change-color-bg p.columns-3 {
-		columns: 1;
-		font-size: 18px;
-	}
-	.change-color-bg p{
-		padding: 0;
-		font-size: 16px;
-	}
-	.scroll-link{
-		padding: 0;
-		padding-left: 10px;
-	}
-	.scroll-link-bg{
-		padding: 0;
-		font-size: 4vw;
-		line-height: 0px;
-		width: 100%;
-	}
-	.parallax-nav {
-    top: 40px;
+.change-color-bg p.columns-3 {
+columns: 1;
+font-size: 18px;
+padding: 2em;
 }
-	.parallax1{
-		padding: 0;
-	}
-	.parallax2{
-		padding: 0;
-	}
-	.parallax3{
-		padding: 0;
-	}
+.change-color-bg p{
+padding: 0;
+font-size: 16px;
 }
-	/* >= 840px
-----------------------------------------------*/
-@media (max-width: 840px) {
-
+.scroll-link{
+padding: 0;
+padding-left: 10px;
 }
-/* >= 960px
-----------------------------------------------*/
-@media (max-width: 960px) {
-
+.scroll-link-bg{
+padding: 0;
+font-size: 4vw;
+line-height: 0px;
+width: 100%;
 }
-/* >= 1024px
-----------------------------------------------*/
-@media (max-width: 1024px) {
-
+.parallax-nav {
+top: 40px;
 }
-/* >= 1280px
-----------------------------------------------*/
-@media (max-width: 1280px) {
-
+.parallax1{
+padding: 0;
 }
-/* >= 1680px
-----------------------------------------------*/
-@media (max-width: 1680px) {
-
+.parallax2{
+padding: 0;
 }
-/* End of MEDIA QUERIES
-===================================================================================*/
+.parallax3{
+padding: 0;
+}
+}
+/*===================================================================================*/
