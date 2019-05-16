@@ -289,10 +289,11 @@ position: absolute;
 }
 @keyframes change-color-bg{
   from {
-    background: whitesmoke;
+    background: url(../Images/bgSnowing/1.jpg)
+    
   }
   to {
-    background: #D4E0E0;
+    background: url(../Images/bgSnowing/2.jpg)
   }  
 }
 .change-color-bg h1 {
@@ -651,5 +652,6 @@ nav ul{
   position: absolute;
   right:30px;
   top: 15px;
+}
 }
 /*===================================================================================*/

@@ -22,16 +22,11 @@ function lenghtchar(i) {
   return i;
 }
  // ------------------------------------------------------------ end currenttime
- // ------------------------------------------------------------ slide show
-
- // ------------------------------------------------------------ en slide show
-
-
-
  // ------------------------------------------------------------ fixed menu
 /* Set the width of the sidebar to 250px (show it) */
 function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementsByClassName("openbtn")[0].style.display = "none";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
