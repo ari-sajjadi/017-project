@@ -291,16 +291,15 @@ nav ul {
 }
 /* ------------------------------------------------------------ Parallelbg*/
 .parallax-nav{
+  position: -webkit-sticky; 
   position: sticky;
   top: 30px;
 }
 
 .parallax1 {
   padding: 20px 120px;
-  background-image: url("../Images/cookingsp.jpg");
-  min-height: 700px; 
+  background-image: url("../Images/cookingsp.jpg"); 
   height: 1000px;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,9 +308,7 @@ nav ul {
 .parallax2 {
   padding: 20px 120px;
   background-image: url("../Images/cookingvg.jpg");
-  min-height: 700px; 
   height: 1000px;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -320,9 +317,8 @@ nav ul {
 .parallax3 {
   padding: 20px 120px;
   background-image: url("../Images/cookingvm.jpg");
-  min-height: 700px; 
   height: 1000px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
