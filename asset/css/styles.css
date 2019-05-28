@@ -103,7 +103,7 @@ nav {
   
   font-family: inherit;
   justify-content: space-around;
-  padding: 20px 20px;
+  padding: 10px 19px;
 
   border-bottom: 2px solid black;
 }
@@ -118,30 +118,30 @@ nav ul li {
   height: 62px;
 }
 .ml{
-  margin-left: 2em;
-  width: 90px;
-  height: 25px;
+  margin-left: 3em;
+  width: 100px;
+  height: 30px;
 }
 .acc{
   padding: 3px;
   width: 30px;
   height: 30px;
 }
+
 /* -------------------------------------------------------- end of header navigationbar*/
 
 /* -------------------------------------------------------- Links on Homepage*/
 
 .scroll-link-links{
-bottom: 0;
-position: absolute;
+  padding-top: 20px;
+  display: absolute;
 
 }
 .scroll-link{
-  padding: 0px 50px 0px;
+  padding: 0px 10px 0px;
   color: #fedb01;
   font-family: 'Anton';
-  font-size: 3vw;
-  text-decoration: none;
+  font-size: 2vw;
   position: sticky;
   line-height: 1em;
 }
@@ -159,7 +159,7 @@ position: absolute;
 
 /* ---------------------------------------------------------- Sucial network fixed panel*/
 .snt{
-  position: fixed;
+  position: absolute;
   right: 0;
   transform: translateY(20px);
   z-index: 9;
@@ -300,6 +300,7 @@ nav ul {
   padding: 20px 120px;
   background-image: url("../Images/cookingsp.jpg"); 
   height: 1000px;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,6 +310,7 @@ nav ul {
   padding: 20px 120px;
   background-image: url("../Images/cookingvg.jpg");
   height: 1000px;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,14 +320,15 @@ nav ul {
   padding: 20px 120px;
   background-image: url("../Images/cookingvm.jpg");
   height: 1000px;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 /* ------------------------------------------------------------ Slide show big and small*/
-.shopping-slidshow.small img{
-max-width: 200px;
+
+.shopping-slidshow.small img {
+  width: fit-content;
 }
 .shopping-slidshow.big img{
   max-width: 800px;
@@ -401,6 +404,9 @@ max-width: 200px;
   background-size: 100%;
   background-repeat: no-repeat;
   box-sizing: border-box;
+}
+#colock{
+  margin-left: 9em;
 }
 /* ------------------------------------------------------------ end of footer*/
 /* MEDIA QUERIES
@@ -490,7 +496,7 @@ padding: 0;
 font-size: 16px;
 }
 .change-color-bg h1{
-  font-size: 27px;
+font-size: 9.5px;
 padding-top: 1em;
 }
 .scroll-link{
@@ -508,17 +514,33 @@ top: 40px;
 }
 .parallax1{
 padding: 0;
+background-attachment: scroll;
 }
 .parallax2{
 padding: 0;
+background-attachment: scroll;
 }
 .parallax3{
 padding: 0;
+background-attachment: scroll;
 }
 nav ul{
   display: block;
   break-after: auto;
   height: 100px;
+}
+.scroll-link-links {
+  padding-top: 20px;
+  display: -webkit-box;
+}
+.snt{
+  display: -webkit-box;
+  right: 0;
+  transform: translateY(20px);
+  z-index: 9;
+}
+.Subscribe {
+  height: 34px;
 }
 #logoLink {
   position: absolute;
@@ -526,24 +548,29 @@ nav ul{
   top: 20px;
 }
 #colock {
-  position: absolute;
-  left: 10px;
+  right: 10px;
   top: 55px;
 }
 #searchNavSearch {
-  position: absolute;
+  position: relative;
   left: 10px;
-  top: 90px;
+  top: 65px;
 }
 #searchNavBotton {
-  position: absolute;
+  position: relative;
   left: 230px;
-  top: 90px;
+  top: 65px;
 }
 #navBottons{
   position: absolute;
   right:30px;
   top: 15px;
+}
+#footer{
+  width: 100%;
+  background-color: aliceblue;
+  height: 100px;
+
 }
 }
 /*===================================================================================*/

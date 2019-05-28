@@ -1,0 +1,82 @@
+{
+
+  "data": {
+		"author"        : "Ari",
+		"last_update"   : "27.05.2019"
+  },
+
+  "shoppingCard": {
+    "01spice": {
+      "img_link" : "asset/images/shopping slidshow/1Chines_five_mix_Powder.jpg",
+      "img_alt" : "shoping-slideshow 1",
+      "spice_name" :"CH 5 MIX",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket01"
+    },
+    "02spice": {
+      "img_link" : "asset/images/shopping slidshow/2Chines_five_Mix.jpg",
+      "img_alt" : "shoping-slideshow 2",
+      "spice_name" :"CH 5 MIX",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket02"
+    },
+    "03spice": {
+      "img_link" : "asset/images/shopping slidshow/3Saffron.jpg",
+      "img_alt" : "shoping-slideshow 3",
+      "spice_name" :"Saffron",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket03"
+    },
+    "04spice": {
+      "img_link" : "asset/images/shopping slidshow/4Chilli.jpg",
+      "img_alt" : "shoping-slideshow 4",
+      "spice_name" :"Chilli",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket04"
+    },
+    "05spice": {
+      "img_link" : "asset/images/shopping slidshow/5Moroccan_Mix.jpg",
+      "img_alt" : "shoping-slideshow 5",
+      "spice_name" :"Moroccan Mix",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket05"
+    },
+    "06spice": {
+      "img_link" : "asset/images/shopping slidshow/6Red-pepper.jpg",
+      "img_alt" : "shoping-slideshow 6",
+      "spice_name" :"Red Pepper",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket06"
+    },
+    "07spice": {
+      "img_link" : "asset/images/shopping slidshow/7Moroccan.jpg",
+      "img_alt" : "shoping-slideshow 7",
+      "spice_name" :"Moroccan",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket07"
+    },
+    "08spice": {
+      "img_link" : "asset/images/shopping slidshow/8Berbere.jpg",
+      "img_alt" : "shoping-slideshow 8",
+      "spice_name" :"Berbere",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket08"
+    },
+    "09spice": {
+      "img_link" : "asset/images/shopping slidshow/9Aleppo_Pepper.jpg",
+      "img_alt" : "shoping-slideshow 9",
+      "spice_name" :"Aleppo Pepper",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket09"
+    },
+    "10spice": {
+      "img_link" : "asset/images/shopping slidshow/10Cardamom.jpg",
+      "img_alt" : "shoping-slideshow 10",
+      "spice_name" :"Cardamom",
+      "spice_price" :"chf 9.90",
+      "price_ID" : "AddToBasket10"
+    }
+  }
+
+
+}
